@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: lightblue;
+    border: 2px solid blue;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+  }
+  
+  /* Section 1 */
+  #section1 {
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 20px;
+  }
+  
+  /* Section 2 */
+  #section2 {
+    background-color: lightyellow;
+    border: 2px solid orange;
+    padding: 20px;
+    color: orange;
+  }
+  
+  /* Section 3 */
+  #section3 {
+    background-color: lightpink;
+    border: 2px solid red;
+    padding: 20px;
+    color: red;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
