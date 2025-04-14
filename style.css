@@ -33,11 +33,12 @@ body {
     font-weight: bold;
   }
   
-  /* Section 1 */
-  #section1 {
+ /* Section 1 */
+#section1 {
     background-color: lightgreen;
     border: 2px solid green;
     padding: 20px;
+    color: black; /* Add this line */
   }
   
   /* Section 2 */
@@ -45,7 +46,7 @@ body {
     background-color: lightyellow;
     border: 2px solid orange;
     padding: 20px;
-    color: orange;
+    color: black; /* Change from orange to black */
   }
   
   /* Section 3 */
@@ -53,7 +54,7 @@ body {
     background-color: lightpink;
     border: 2px solid red;
     padding: 20px;
-    color: red;
+    color: black; /* Change from red to black */
   }
   
   /* Footer */
