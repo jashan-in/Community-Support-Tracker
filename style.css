@@ -5,7 +5,6 @@ body {
     color: white;
   }
   
-  /* Header */
   header {
     background-color: #ccc;
     color: #333;
@@ -13,7 +12,6 @@ body {
     padding: 10px;
   }
   
-  /* Navbar */
   nav {
     background-color: lightblue;
     border: 2px solid blue;
@@ -33,35 +31,68 @@ body {
     font-weight: bold;
   }
   
- /* Section 1 */
 #section1 {
     background-color: lightgreen;
     border: 2px solid green;
     padding: 20px;
-    color: black; /* Add this line */
+    color: black; 
   }
   
-  /* Section 2 */
   #section2 {
     background-color: lightyellow;
     border: 2px solid orange;
     padding: 20px;
-    color: black; /* Change from orange to black */
+    color: black; 
   }
-  
-  /* Section 3 */
   #section3 {
     background-color: lightpink;
     border: 2px solid red;
     padding: 20px;
-    color: black; /* Change from red to black */
+    color: black; 
   }
   
-  /* Footer */
   footer {
     background-color: #ccc;
     color: #333;
     text-align: center;
     padding: 10px;
+  }
+  
+
+#donation-form-section {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid #999;
+    border-radius: 8px;
+  }
+  
+  #donation-form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #donation-form input,
+  #donation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  #donation-form button {
+    padding: 10px 20px;
+    background-color: #007b00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #donation-form button:hover {
+    background-color: #005a00;
   }
   
