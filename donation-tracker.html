@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donation Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Community Support Tracker</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="donation-tracker.html">Donations</a></li>
+      <li><a href="volunteer-tracker.html">Volunteer Hours</a></li>
+      <li><a href="event-signup.html">Event Signup</a></li>
+    </ul>
+  </nav>
+<!-- Donation Form -->
+<main>
+    <section id="donation-form-section">
+      <h2>Donation Tracker</h2>
+      <form id="donation-form">
+        <label for="charity">Charity Name:</label><br />
+        <input type="text" id="charity" name="charity" required /><br /><br />
+
+        <label for="amount">Donation Amount:</label><br />
+        <input type="number" id="amount" name="amount" required /><br /><br />
+
+        <label for="date">Date of Donation:</label><br />
+        <input type="date" id="date" name="date" required /><br /><br />
+
+        <label for="message">Donor Comment / Message:</label><br />
+        <textarea id="message" name="message" rows="4"></textarea><br /><br />
+
+        <button type="submit">Submit Donation</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PiXELL River Financial</p>
+  </footer>
+
+</body>
+</html>
