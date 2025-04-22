@@ -20,7 +20,34 @@
       <li><a href="event-signup.html">Event Signup</a></li>
     </ul>
   </nav>
+  
+  <main>
+    <section id="event-form-section">
+      <h2>Event Signup</h2>
+      <form id="event-form">
+        <label for="event-name">Event Name:</label><br />
+        <input type="text" id="event-name" name="event-name" required /><br /><br />
 
+        <label for="rep-name">Company Representative's Name:</label><br />
+        <input type="text" id="rep-name" name="rep-name" required /><br /><br />
+
+        <label for="rep-email">Representative's Email:</label><br />
+        <input type="email" id="rep-email" name="rep-email" required /><br /><br />
+
+        <label for="role">Role Selection:</label><br />
+        <select id="role" name="role" required>
+          <option value="">--Select Role--</option>
+          <option value="Sponsor">Sponsor</option>
+          <option value="Participant">Participant</option>
+          <option value="Organizer">Organizer</option>
+        </select><br /><br />
+
+        <button type="submit">Submit Signup</button>
+      </form>
+    </section>
+  </main>
+
+  
   <footer>
     <p>&copy; 2025 PiXELL River Financial</p>
   </footer>
